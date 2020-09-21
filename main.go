@@ -36,7 +36,6 @@ func asteroids(roids []int) []int {
 			continue
 		}
 
-
 		if value + previous == 0 {
 			// Both values are the same, delete last one, do not add the current one.
 			newRoids = newRoids[:len(newRoids)-1]
