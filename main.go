@@ -7,7 +7,8 @@ import (
 
 func main() {
 	//input := []int{5, 8, -5}
-	input := []int{2,4,8,-9,-8,-1,-4,7,-5,5,0,1,-3,-8,7,14,-8,-22,-7}
+	input := []int{4, 0, -0}
+	//input := []int{2,4,8,-9,-8,-1,-4,7,-5,5,0,1,-3,-8,7,14,-8,-22,-7}
 	endRoids := asteroids(input)
 	fmt.Printf("endRoids: %v\n", endRoids)
 }

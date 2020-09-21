@@ -17,4 +17,4 @@ $ asteroids([10, -10]) $ [] // The 10 and -10 collide and they both explode.
 
 ## assumptions
 
-The value 0 is always going to be a different sign to the previous asteroid. They always get destroyed.
+The value 0 is always going to be a different sign to the previous asteroid. They always get destroyed. It doesn't matter whether the value used is `0` or `-0`.
