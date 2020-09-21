@@ -14,3 +14,7 @@ $ [5, 8] // The 8 and -5 collide, 8 wins. The 5 and 8 never collide.
 ```bash
 $ asteroids([10, -10]) $ [] // The 10 and -10 collide and they both explode. 
 ```
+
+## assumptions
+
+The value 0 is always going to be a different sign to the previous asteroid. They always get destroyed.
